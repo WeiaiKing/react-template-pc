@@ -1,11 +1,14 @@
 import React, { memo } from 'react'
 
-export default memo(
-  function HYRecomment() {
-    return (
-      <div>
-        <h2>HYRecomment</h2>
-      </div>
-    )
-  }
-)
+import HYTopBanner from './c-cpns/top-banner';
+
+function HYRecomment() {
+  return (
+    <div>
+      <HYTopBanner />
+      <h2>HYRecomment</h2>
+    </div>
+  )
+}
+
+export default memo(HYRecomment)
