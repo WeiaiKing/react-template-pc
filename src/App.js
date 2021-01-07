@@ -1,7 +1,9 @@
 import React, { memo } from 'react';
+import { Provider } from 'react-redux';
 import { renderRoutes } from 'react-router-config';
 
 import routes from './router';
+import store from './store';
 
 import { HashRouter } from 'react-router-dom';
 import HYAppHeader from '@/components/app-header';
@@ -9,11 +11,13 @@ import HYAppFooter from '@/components/app-footer';
 
 export default memo(function App() {
   return (
-    <HashRouter>
-      <HYAppHeader />
-      {renderRoutes(routes)}
-      <HYAppFooter />
-    </HashRouter>
+    <Provider store={store}>
+      <HashRouter>
+        <HYAppHeader />
+        {renderRoutes(routes)}
+        <HYAppFooter />
+      </HashRouter>
+    </Provider>
   )
 })
 
