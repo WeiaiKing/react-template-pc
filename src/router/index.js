@@ -55,6 +55,10 @@ const routes = [
         path: "/discover/album",
         component: HYAlbum
       },
+      {
+        path: "/discover/player",
+        component: HYPlayer
+      }
 
     ]
   },
