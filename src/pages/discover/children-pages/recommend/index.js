@@ -1,13 +1,24 @@
 import React, { memo } from 'react'
-
 import HYTopBanner from './c-cpns/top-banner';
+import HYHotRecommend from './c-cpns/hot-recommend';
+import HYNewAlbum from './c-cpns/new-album';
+import {
+  RecommendWrapper,
+  Content,
+  RecommendLeft,
+  RecommendRight
+} from './style';
 
 function HYRecomment() {
   return (
-    <div>
+    <RecommendWrapper>
       <HYTopBanner />
-      <h2>HYRecomment</h2>
-    </div>
+      <Content className="wrap-v2">
+        <HYHotRecommend></HYHotRecommend>
+        <HYNewAlbum />
+      </Content>
+
+    </RecommendWrapper>
   )
 }
 
