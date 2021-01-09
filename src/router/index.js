@@ -10,6 +10,7 @@ import HYSongs from "@/pages/discover/children-pages/songs";
 import HYArtist from "@/pages/discover/children-pages/artist";
 import HYDjradio from "@/pages/discover/children-pages/djradio";
 import HYAlbum from "@/pages/discover/children-pages/album";
+import HYPlayer from "@/pages/player";
 import { Redirect } from "react-router-dom";
 
 const routes = [
@@ -54,6 +55,10 @@ const routes = [
       {
         path: "/discover/album",
         component: HYAlbum
+      },
+      {
+        path: "/discover/player",
+        component: HYPlayer
       }
     ]
   },
