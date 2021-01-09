@@ -26,7 +26,7 @@ export default memo(function HYNewAlbum() {
     <AlbumWrapper>
       <HYThemeHeaderRCM title="新碟上架" />
       <div className="content">
-        <button className="arrow arrow-left sprite_02"></button>
+        <button className="arrow arrow-left sprite_02" onClick={e => pageRef.current.prev()}></button>
         <div className="album">
           <Carousel dots={false} ref={pageRef}>
             {
@@ -44,6 +44,8 @@ export default memo(function HYNewAlbum() {
             }
           </Carousel>
         </div>
+        <button className="arrow arrow-right sprite_02"
+          onClick={e => pageRef.current.next()}></button>
       </div>
     </AlbumWrapper>
   )
