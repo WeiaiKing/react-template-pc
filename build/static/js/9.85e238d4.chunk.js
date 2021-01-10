@@ -1,0 +1,2 @@
+(this["webpackJsonpaking-music-react-pc"]=this["webpackJsonpaking-music-react-pc"]||[]).push([[9],{231:function(c,e,i){"use strict";i.r(e);var n=i(2),t=i(0);e.default=Object(t.memo)((function(){return Object(n.jsx)("div",{children:Object(n.jsx)("h2",{children:"HYRanking"})})}))}}]);
+//# sourceMappingURL=9.85e238d4.chunk.js.map

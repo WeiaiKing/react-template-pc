@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/discover/children-pages/songs/index.js"],"names":["memo"],"mappings":"8JAEeA,0BACb,WACE,OACE,8BACE","file":"static/js/10.05577ec3.chunk.js","sourcesContent":["import React, { memo } from 'react'\n\nexport default memo(\n  function HYSongs() {\n    return (\n      <div>\n        <h2>HYSongs</h2>\n      </div>\n    )\n  }\n)"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/discover/children-pages/djradio/index.js"],"names":["memo"],"mappings":"6JAEeA,0BACb,WACE,OACE,8BACE","file":"static/js/8.28a3b9cb.chunk.js","sourcesContent":["import React, { memo } from 'react'\n\nexport default memo(\n  function HYDjradio() {\n    return (\n      <div>\n        <h2>HYDjradio</h2>\n      </div>\n    )\n  }\n)"],"sourceRoot":""}
